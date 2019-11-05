@@ -9,6 +9,7 @@ public class DubboDoeApplication {
 
     public static void main(String[] args) {
 
+        //
         SpringApplication springApplication = new SpringApplication(DubboDoeApplication.class);
         springApplication.addListeners(new ApplicationReadyEventListener()); // load jars when startup
         springApplication.run(args);
